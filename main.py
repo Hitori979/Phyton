@@ -1,0 +1,12 @@
+
+number = float(input("Введите число: "))
+numberI = float(input("Введите пограничное число: "))
+
+if number < numberI:
+    print("Ваше число меньше пограничного")
+elif number > numberI*3:
+    print("Ваше число больше пограничного более, чем в 3 раза")
+elif number > numberI:
+    print("Ваше число больше пограничного")
+else:
+    print("Числа равны")
