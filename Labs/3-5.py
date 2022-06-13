@@ -1,0 +1,8 @@
+w1 = input("Введите первый список через запятую: ")
+w1 = w1.split(",")
+arrayW1=set(w1)
+print("В списке {} слов(а)".format(len(w1)))
+w2 = input("Введите второй список из {} слов через запятую: ".format(len(w1)))
+w2 = w2.split(",")
+dictList = dict(zip(w1, w2))
+print(dictList)
